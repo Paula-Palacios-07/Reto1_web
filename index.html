@@ -8,7 +8,13 @@
 </head>
 
 <body>
-    <div class="container-card">	
+    <header>
+        <div>
+            <h1>Markets Lapto JS</h1>
+        </div> 
+    </header>
+<main class="container-card">
+<section>	
 <div class="card">
 	<figure>
 		<img src="./img/img-1.png" alt="">
@@ -26,10 +32,12 @@
         </select>
         <h3>Precio: 400.000</h3><br>
         <button type="button" class="btn" id="btnTotal">Calcular total</button>
+</section>
         <section class="allCards">
             <div class="cardsMarkets" id="cardsMarkets"></div>
         </section>
-        <img class="img" src="./img/verde.png" id="imgchange" alt="">
+<section>
+        <img class="img" src="./img/blanco.png" id="imgchange" alt="">
     </form>
     <template id="templateMarkets">       
         <p class="total"></p>
@@ -37,6 +45,8 @@
         <p class="opcion"></p>                    
     </template>
     </div>
+</section>
+</main>
     <script src="./scripts/color.js"></script>
     <script type="module" src="./scripts/main.js"></script>
 </body>

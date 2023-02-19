@@ -6,14 +6,15 @@
 }
 /*Cards*/
 .container-card {
-  width: 80%;
+  width: 90%;
   display: flex;
   max-width: 1100px;
   margin: auto;
+  justify-content: center;
 }
 
 .card {
-  width: 50%;
+  width: 70%;
   margin: 20px;
   border-radius: 6px;
   overflow: hidden;
@@ -41,7 +42,7 @@
   font-size: 14px;
 }
 
-form {
+.form {
   width: 50%;
   height: auto;
   margin: 5% auto;
@@ -51,28 +52,16 @@ form {
 }
 
 form > input,
-label {
+label,select{
   display: inline-block;
-  width: 150%;
-  height: 30px;
-  margin: 3% 0;
-  font-size: 15px;
-}
-.select {
-  display: inline-block;
-  width: 74%;
-  height: 30px;
-  margin: 3% 0;
-  font-size: 15px;
-  color: #6e6e6e;
+  width: 130%;
+  margin: 5px;
+  font-size: 15px;  
+  justify-content: center;
 }
 
-.form > input {
-  padding: 5px 2px;
-  width: max-content;
-}
-
-.btn {
+.btn{
+  width: 140%;
   background: rgb(224, 194, 57);
   border-radius: 18px;
   color: #000000;
@@ -89,32 +78,6 @@ h3 {
   font-size: 20px;
   color: #ffffff;
   padding-right: 20%;
-}
-
-.alerta {
-  width: 25%;
-  height: 100px;
-  background-color: #54ca3f;
-  position: fixed;
-  top: 35%;
-  left: 35%;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 7%;
-  border: 2px solid #3c3d59;
-}
-.textAlerta {
-  width: 100%;
-  margin-top: 10%;
-  color: antiquewhite;
-}
-.close {
-  width: 9%;
-  height: auto;
-  cursor: pointer;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .img {
