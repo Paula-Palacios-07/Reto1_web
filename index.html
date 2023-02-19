@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Cards - markets</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="container-card">	
+<div class="card">
+	<figure>
+		<img src="./img/img-1.png" alt="">
+	</figure>
+	<div class="contenido-card">
+		<h3>laptop gamer AMD</h3>
+    <form class="form">
+        <input required id="cantidad" name="cantidad" type="number" placeholder="Cantidad"><br>
+        <select required class="select"  name="opcion" id="opcion">
+            <option value="0" selected>Color</option>
+            <option id="amarillo" value="Amarillo">Amarillo</option>
+            <option id="azul" value="Azul">Azul</option>
+            <option id="rojo" value="Rojo">Rojo</option>
+            <option id="morado" value="Morado">Morado</option>
+        </select>
+        <h3>Precio: 400.000</h3><br>
+        <button type="button" class="btn" id="btnTotal">Calcular total</button>
+        <section class="allCards">
+            <div class="cardsMarkets" id="cardsMarkets"></div>
+        </section>
+        <img class="img" src="./img/verde.png" id="imgchange" alt="">
+    </form>
+    <template id="templateMarkets">       
+        <p class="total"></p>
+        <p class="cantidad"></p>               
+        <p class="opcion"></p>                    
+    </template>
+    </div>
+    <script src="./scripts/color.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+</html>
